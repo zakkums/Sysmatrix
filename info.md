@@ -1,5 +1,7 @@
 # sysmatrix Project Overview
 
+Navigation: [`README.md`](README.md) | [`docs index`](docs/README.md) | [`source package`](src/sysmatrix) | [`tests`](tests)
+
 ## Objective
 
 Build a production-ready, modular system diagnostics CLI with:

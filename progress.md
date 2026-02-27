@@ -1,5 +1,7 @@
 # Sysmatrix Migration Progress
 
+Navigation: [`README.md`](README.md) | [`docs index`](docs/README.md) | [`release checklist`](docs/release-process.md)
+
 ## Snapshot
 - Date: 2026-02-27
 - Scope: Documentation polish and production hardening

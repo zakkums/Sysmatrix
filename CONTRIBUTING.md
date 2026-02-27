@@ -2,6 +2,13 @@
 
 Thanks for contributing to `sysmatrix`.
 
+## Navigation
+
+- Project overview: [`README.md`](README.md)
+- Docs index: [`docs/README.md`](docs/README.md)
+- Architecture notes: [`docs/architecture.md`](docs/architecture.md)
+- Release process: [`docs/release-process.md`](docs/release-process.md)
+
 ## Local Setup
 
 ```bash
@@ -18,6 +25,8 @@ Run the same checks used in CI:
 python3 -m compileall src
 python3 -m pytest -q tests/unit tests/integration
 ./scripts/sysmatrix --version
+./scripts/sysmatrix --short --plain
+./scripts/sysmatrix --json >/dev/null
 ```
 
 ## Coding Guidelines

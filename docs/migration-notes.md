@@ -1,5 +1,7 @@
 # Migration Notes
 
+Navigation: [`docs index`](README.md) | [`progress tracker`](../progress.md)
+
 ## Completed
 
 - Replaced the monolithic shell implementation with a modular Python package.

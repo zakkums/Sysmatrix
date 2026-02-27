@@ -2,6 +2,8 @@
 
 This document defines the minimum steps to cut a new `sysmatrix` release and verify Debian packaging output.
 
+Navigation: [`docs index`](README.md) | [`project README`](../README.md) | [`debian metadata`](../debian)
+
 ## Prerequisites
 
 Install release/build dependencies:
@@ -17,6 +19,8 @@ Ensure a clean working tree and passing local checks:
 python3 -m compileall src
 python3 -m pytest -q tests/unit tests/integration
 ./scripts/sysmatrix --version
+./scripts/sysmatrix --short --plain
+./scripts/sysmatrix --json >/dev/null
 ```
 
 ## Version Update
