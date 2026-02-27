@@ -1,0 +1,36 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test/cache artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build/packaging artifacts
+build/
+dist/
+.pybuild/
+*.egg-info/
+.eggs/
+*.deb
+*.dsc
+*.build
+*.buildinfo
+*.changes
+*.tar.*
+debian/.debhelper/
+debian/files
+debian/sysmatrix/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/system files
+.DS_Store
+.idea/
+.vscode/

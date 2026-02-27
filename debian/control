@@ -1,0 +1,14 @@
+Source: sysmatrix
+Section: utils
+Priority: optional
+Maintainer: sysmatrix contributors <maintainer@example.com>
+Build-Depends: debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sysmatrix
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Modular system information and diagnostics CLI
+ Sysmatrix reports host, CPU, memory, and platform diagnostics from a modular
+ codebase designed for Debian package delivery.

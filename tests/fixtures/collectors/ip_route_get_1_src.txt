@@ -1,0 +1,2 @@
+1.0.0.0 via 10.42.0.1 dev wlan0 src 10.42.0.23 uid 1000
+    cache

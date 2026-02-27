@@ -1,0 +1,4 @@
+SMART/Health Information (NVMe Log 0x02)
+Temperature:                        38 Celsius
+Device Life Remaining:              92%
+Power On Hours:                     1573

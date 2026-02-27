@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sysmatrix"
+version = "0.1.0"
+description = "Modular system information and diagnostics CLI"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "sysmatrix contributors" }]
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+sysmatrix = "sysmatrix.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

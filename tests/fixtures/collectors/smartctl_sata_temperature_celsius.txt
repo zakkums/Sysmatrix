@@ -1,0 +1,3 @@
+=== START OF READ SMART DATA SECTION ===
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+194 Temperature_Celsius     0x0022   065   048   000    Old_age   Always       -       35

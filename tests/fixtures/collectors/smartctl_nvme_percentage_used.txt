@@ -1,0 +1,7 @@
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        35 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    6%
+Data Units Read:                    45,201,102 [23.1 TB]
