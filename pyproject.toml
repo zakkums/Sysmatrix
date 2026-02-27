@@ -12,6 +12,9 @@ authors = [{ name = "sysmatrix contributors" }]
 license = "MIT"
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
 [project.scripts]
 sysmatrix = "sysmatrix.cli:main"
 
